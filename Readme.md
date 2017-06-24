@@ -1,6 +1,6 @@
-# Alexa Skill state capital quiz
+# Alexa Skill country capital quiz
 
-This Alex Skill is a little game to help my kids learn US state capitals; and an excuse for me to play around with:
+This Alex Skill is a little game to help my kids learn Country capitals; and an excuse for me to play around with:
 
 - [AWS Lambda](https://aws.amazon.com/lambda/)
 - [The Alexa Skills node
