@@ -8,7 +8,7 @@ var GAME_STATES = {
     START: "_STARTMODE" // Entry point, start the game.
 };
 //var questions = require("./questions");
-const questions = require("./states");
+const questions = require("./countries");
 
 /**
  * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
@@ -23,9 +23,9 @@ var languageString = {
             "STOP_MESSAGE": "Okay. Goodbye.",
             "CANCEL_MESSAGE": "Ok, let\'s play again soon.",
             "NO_MESSAGE": "Ok, we\'ll play another time. Goodbye!",
-            "TRIVIA_UNHANDLED": "Try saying the name of a state or capital",
+            "TRIVIA_UNHANDLED": "Try saying the name of a country or capital",
             "START_UNHANDLED": "Say start to start a new game.",
-            "NEW_GAME_MESSAGE": "Hi Adrian. Let\'s practice some state capitals. ",
+            "NEW_GAME_MESSAGE": "Hi Adrian. Let\'s practice some country capitals. ",
             "ANSWER_CORRECT_MESSAGE": "Correct. ",
             "ANSWER_WRONG_MESSAGE": "That\'s incorrect. ",
             "CORRECT_ANSWER_MESSAGE": "The correct answer is %s. ",
